@@ -1,0 +1,189 @@
+body {
+    margin: 0;
+    padding-top: 800px;
+    text-align: center;
+}
+
+.profile {
+    width: 175px;
+    margin-bottom: 50px;
+    border-radius: 50%;
+    border-color: fuchsia;
+}
+
+
+#welcome {
+    position: absolute;
+    height: 800px;
+    color: cyan;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0.91;
+    background: linear-gradient(#00CCF8 5%, #6300EE 40%, #c2c5cc 85%);
+    display: table;
+    width: 100%;
+    height: 100%;
+    z-index: 9;
+}
+
+h1 {
+    font-size: 40px;
+    line-height: 1.2;
+    font-family: 'Balsamiq Sans', cursive;
+    font-weight: 300;
+}
+
+#name {
+    font-size: 50px;
+    line-height: 1.2;
+    font-family: 'Kalam', cursive;
+
+}
+
+#T {
+    font-size: 30px;
+    line-height: 1.2;
+
+}
+
+#H {
+    font-family: 'Reggae One', cursive;
+    color: dodgerblue;
+}
+
+
+h2 {
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 1.2;
+    font-family: 'Patrick Hand', cursive;
+}
+
+#bio {
+    padding: 50px;
+    text-align: center;
+    font-size: 42px;
+    background: linear-gradient(#155DCA 0%, #0066FF 33%, #00FF0C 66%, #12EB61 100%);
+}
+
+
+}
+
+.line {
+    height: 6px;
+    background-color: #000;
+    width: 70px;
+    margin: 8px auto;
+}
+
+#men {
+    text-align: center;
+}
+
+p {
+    max-width: 450px;
+    margin: 25px auto;
+    font-size: 17px;
+    line-height: 1.3;
+    font-family: 'Patrick Hand', cursive;
+}
+
+.parallax-inner {
+    display: table-cell;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.menu {
+    list-style: none;
+    font-family: 'Combo', cursive;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    z-index: 10;
+    cursor: pointer;
+    background: white;
+    width: 100%;
+    margin-top: 0px;
+}
+
+
+#R {
+    font-family: 'Trade Winds', cursive;
+    color: blueviolet;
+    font-size: 30px;
+}
+
+.links {
+    float: left;
+    color: chartreuse;
+    padding-top: 5px;
+    padding-left: 33px;
+    padding-right: 25px;
+    padding-bottom: 5px;
+    font-family: monospace;
+    font-size: 20px;
+    display: inline;
+}
+
+.links:hover {
+    background-color: white;
+    font-size: 25px;
+    text-decoration: underline
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+}
+
+.article:hover {
+    color: orangered;
+}
+
+#videos {
+    background: linear-gradient(#CB1029 0%, #FFA500 25%, #EBE212 40%, #18C242 60%, #00CCF8 80%, #AE3EF1 100%);
+}
+
+#work {
+    background: linear-gradient(#FF0085 0%, #EC3FFB 35%, #0079FF 70%, #00CCF8 100%);
+}
+
+#writings {
+    background: linear-gradient(#7700E0 0%, #FF00EB 100%);
+}
+
+#U,
+#M {
+    font-family: 'Patrick Hand', cursive;
+    font-size: 30px;
+    text-decoration: underline
+}
+
+#o {
+    color: darkturquoise;
+    text-shadow: 2px 2px gainsboro;
+}
+
+#contact {
+    background: firebrick;
+}
+
+#contact iframe {
+    width: 100%;
+}
+
+.contact_1 h3 {
+    display: inline;
+}
+
+.contact_1 a {
+    color: white;
+    text-shadow: none;
+}
